@@ -1,0 +1,29 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    cuba (3.7.0)
+      rack (~> 1.6.0)
+    mote (1.1.4)
+    mote-render (1.1.0)
+    nomadize (0.4.2)
+      pg (~> 0.18.1)
+    pg (0.18.4)
+    rack (1.6.4)
+    sql_capsule (0.1.1)
+      pg (~> 0.18.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  cuba (~> 3.7.0)
+  mote
+  mote-render
+  nomadize
+  sql_capsule
+
+RUBY VERSION
+   ruby 2.3.0p0
+
+BUNDLED WITH
+   1.13.0

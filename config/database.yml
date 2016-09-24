@@ -1,0 +1,7 @@
+---
+development:
+  :dbname: 'three_col_dev'
+test:
+  :dbname: ''
+production:
+  :dbname: ''

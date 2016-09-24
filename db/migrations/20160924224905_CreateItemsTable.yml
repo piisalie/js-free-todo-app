@@ -1,0 +1,7 @@
+---
+:up: "CREATE TABLE items(
+      id SERIAL,
+      name VARCHAR(100),
+      status VARCHAR(20) DEFAULT 'todo'
+      );"
+:down: 'DROP TABLE items;'
